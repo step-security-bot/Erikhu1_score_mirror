@@ -29,3 +29,8 @@ updates:
     directory: /cmake/requirements
     schedule:
       interval: daily
+
+  - package-ecosystem: docker
+    directory: /.devcontainer/S-CORE
+    schedule:
+      interval: daily
